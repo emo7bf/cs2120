@@ -117,7 +117,7 @@ For now (we'll change this in the next section) sandwiches may not have hot sauc
 **Problem 10** How many sandwiches would there be if we wanted them to have exactly 5 distinct ingredients (including the bread as one ingredient)?
 
 
-## Spcicy Sandwiches
+## Spicy Sandwiches
 
 A sandwich is considered "sauce-able" if all of its ingredients are sauce-able. Any sauce-able sandwich may additionally have hot sauce added (just once and it can be placed anywhere between the two pieces of bread). If we may add hot sauce to sandwiches, these would be different valid sandwiches with hot sauce:
 
