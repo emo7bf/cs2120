@@ -2,7 +2,7 @@
 title: Group Activity 4 | Counting Dishes
 ...
 
-Put your answers for each problem of this activity in this [worksheet](/group4.pdf).
+Put your answers for each problem of this activity in this [worksheet](/files/group4.pdf).
 
 # Directions
 
