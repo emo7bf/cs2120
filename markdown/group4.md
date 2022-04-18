@@ -1,124 +1,128 @@
 ---
-title: Group Activity 4 | Counting Cranberries (yep)
+title: Group Activity 4 | Counting Dishes
 ...
 
 Put your answers for each problem of this activity in this [worksheet](/group4.pdf).
 
 # Directions
 
-This activity is designed to be done in a group, whether that's in class, at home with family, or with suite-mates, friends, or people you meet on the bus or in an airport. 
+This activity is designed to be done in a group, whether that's in class, at home with family, or with suite-mates, or friends. 
 
 - **If you're working on this in class**, please first form a group of approximately 3 people (+/- 1 person). 
 
 - **If you're working on this elsewhere**, find at least 1 other person (but ideally 2) to participate in this activity with you. Your partner(s) definitely don't need to have any math/cs background, but be prepared to teach some discrete math to someone! When completing your activity you may print our the worksheet above, or roughly reproduce it on your own paper. To submit, email the completed work to your instructor AND turn in the paper in class.
 
-For this activity you will be solving a series of Thanksgiving-themed counting problems.
+For this activity you will be solving a series of Potluck-themed counting problems.
 
 
 # Introduce Your Team/Family!
 
 Enter all the names and computing IDs of all members of your group. 
 
-# Introduce Your (Thanksgiving) Dinner!
+# Introduce Your Potluck Meal!
 
-Have each person in your group share their two favorite items to have at Thanksgiving dinner. If you do not celebrate Thanksgiving, then just name at least one food that you enjoy to eat with your family. Write down the set of all dishes you've named (**Problem 2**). We'll refer to this set as $D$ in a future problem
+A Potluck meal usually involves each person bringing one (or more) of their favorite dishes to share. You generally never know what you're going to get - there may be 5 salads and 10 desserts and no main dishes. But usually it's enough to make a meal out of and a great way to sample new and delicious foods from other cultures.
+Have each person in your group share their two favorite food items that they might bring to a Potluck meal. Write down the set of all dishes you've named (**Problem 1**). We'll refer to this set as $D$ in a future problem
 
 
 # Counting Meals
 
-We'll define a "helping" to be any non-empty subset of dishes from the set $D$. How many different helpings are there for you set $D$? (**Problem 3**)
+We'll define a "helping" to be any non-empty subset of dishes from the set $D$. How many different helpings are there for you set $D$? (**Problem 2**)
 
 
 # More Counting Problems
 
 **If you're in class**: Do each of the following problems together
 
-**If you're at home**: You're welcome to work on these problems with your team/family, but if they're tired and grumpy from all the feasting, you're welcome to work on them alone.
+**If you're at home**: You're welcome to work on these problems with your team/family, but you're also welcome to work on them alone.
 
-For the remaining problems we'll be analyzing how many different Thanksgiving feasts Nate and Elizbeth could have.
+For the remaining problems we'll be analyzing how many different Potluck feasts Briana and Elizbeth could have.
 
-Nate and Elizabeth will have the following at their Thanksgiving dinner:
+Briana and Elizabeth will have the following at their Potluck meal dinner:
 
 - Turkey
 - Mashed Potatoes
-- Dressing
+- Ham
 - Green Beans
 - Corn
-- Cranberry Sauce
-- Sweet potato casserole
-- Cornbread
+- Potato Salad
+- Baked Beans
+- Chicken Tenders
 - Macaroni and Cheese
+- Flourless Chocolate Cake
 
 The following items are gluten-free:
 
 - Turkey
 - Mashed Potatoes
+- Ham
 - Corn
-- Cranberry Sauce
-- Cornbread
+- Green Beans
+- Potato Salad
+- Flourless Chocolate Cake
 
 The following items are vegan:
 
 - Green Beans
-- Cranberry Sauce
-- Sweet Potato casserole
+- Baked Beans
+- Corn
 
 
-## How Many Helpings?
+## How Many Plates?
 
-Again, we'll define a "helping" to be any non-empty subset of the items listed above. For example, one helping might be {Turkey, Mashed potatoes, Corn, Cornbread}, and a different helping might be {Corn, Cornbread}. 
+At a Potluck, you walk down the line of dishes and scoop a helping onto your plate. We want to look at all the different ways a plate can "look" (or the different combinations we can make on a plate). We'll define a "plate" to be any non-empty subset of the items listed above. For example, one plate might be {Turkey, Mashed Potatoes, Corn, Baked Beans}, and a different helping might be {Corn, Baked Beans}. 
 
-**Problem 4**: How many different possible helpings are there for the Professors' Thanksgiving?
+**Problem 3**: How many different possible plates are there for the Professors' Potluck?
 
-**Problem 5**: How many different possible helpings are there for Elizabeth, where Elizabeth can only eat gluten-free items?
+**Problem 4**: How many different possible plates are there for Elizabeth, where Elizabeth can only eat gluten-free items?
 
-**Problem 6**: How many different possible helpings are there for someone who can only eat items that are gluten-free and vegan?
+**Problem 5**: How many different possible plates are there for someone who can only eat items that are gluten-free and vegan?
 
-**Problem 7**: How many different possible helpings are there if no helping may have both corn and cornbread?
+**Problem 6**: How many different possible plates are there if no plate may have both Mashed Potatoes and Potato Salad?
 
-## Gravy Boat
+## Spice It Up!
 
-In addition to all of the tasty items above, the Professors' Thanksgiving will feature a delicious gluten-free gravy (a savory sauce, thickened with flour or other starch). Gravy tastes good on most items available for this meal, but not all of them. In particular, it would be unpleasant if you covered any of these with gravy:
+In addition to all of the tasty items above, the Professors' Potluck will feature a spicy gluten-free hot sauce (think Frank's RedHot). Hot sauce tastes good on most items available for this meal, but not all of them. In particular, it would be unpleasant if you put hot sauce on any of these:
 
-- Cranberry Sauce
-- Sweet Potato Casserole
-- Macaroni and Cheese
+- Green Beans
+- Potato Salad
+- Flourless Chocolate Cake
 
-All remaining items would taste good with gravy on top, and so we call those "graviable".
+All remaining items would taste good with hot sauce on top, and so we call those "sauce-able".
 
-We'll consider a "gravy-helping" to be a helping where graviable items may or may not be paired with gravy (also, a gravy-helping may not have both an item with gravy and also that same item without gravy). For example, some different valid gravy-helpings might be:
+We'll consider a "hot sauce plate" to be a plate where sauce-able items may or may not be paired with hot sauce (also, a hot sauce plate may not have both an item with hot sauce and also that same item without hot sauce). For example, some different valid hot sauce plates might be:
 
-- {(Turkey, Gravy), (Mashed Potatoes, Gravy), Cranberry Sauce}
-- {Turkey, (Mashed Potatoes, Gravy), Cranberry Sauce}
-- {Cranberry Sauce}
+- {(Turkey, Hot Sauce), (Mashed Potatoes, Hot Sauce), Baked Beans}
+- {Turkey, (Mashed Potatoes, Hot Sauce), Corn}
+- {Green Beans}
 
-**Problem 8** How many different gravy-helpings are there?
+**Problem 7** How many different hot sauce plates are there?
 
 
 ## Leftovers
 
-On the day after Thanksgiving, Nate likes to make a sandwich with the leftover items. Importantly, unlike for a helping, the order that items are placed on a sandwich is very important. Every valid sandwich must start and end with bread, and any different sequence of ingredients in the middle would make a different sandwich. For example, all of the following would be different valid sandwiches:
+On the day after the PotLuck meal, Briana's husband likes to make a sandwich with the leftover items. Importantly, unlike for a plate, the order that items are placed on a sandwich is very important. Every valid sandwich must start and end with bread, and any different sequence of ingredients in the middle would make a different sandwich. For example, all of the following would be different valid sandwiches:
 
-- (bread, corn, turkey, mashed potatoes, bread)
-- (bread, turkey, corn, mashed potatoes, bread)
-- (bread, turkey, turkey, bread)
-- (bread, turkey, turkey, turkey, bread)
+- (bread, Corn, Turkey, Mashed Potatoes, bread)
+- (bread, Turkey, Corn, Mashed Potatoes, bread)
+- (bread, Turkey, Turkey, bread)
+- (bread, Turkey, Turkey, Turkey, bread)
 
-For now (we'll change this in the next section) sandwiches may not have gravy.
+For now (we'll change this in the next section) sandwiches may not have hot sauce.
 
-**Problem 9** How many different sandwiches are there?
+**Problem 8** How many different sandwiches are there?
 
-**Problem 10** A sandwich is really only going to be edible if you can fit it into your mouth, so maybe it's unwise to have sandwiches that have 5 or more ingredients (not counting the bread). How many edible sandwiches are there?
+**Problem 9** A sandwich is really only going to be edible if you can fit it into your mouth, so maybe it's unwise to have sandwiches that have 5 or more ingredients (not counting the bread). How many edible sandwiches are there?
 
-**Problem 11** How many sandwiches would there be if we wanted them to have exactly 5 distinct ingredients?
+**Problem 10** How many sandwiches would there be if we wanted them to have exactly 5 distinct ingredients (including the bread as one ingredient)?
 
 
-## Gravy on Sandwiches
+## Spcicy Sandwiches
 
-A sandwich is considered "graviable" if all of its ingredients are graviable. Any graviable sandwich may additionally have gravy added (just once and it can be placed anywhere between the two pieces of bread). If we may add gravy to sandwiches, these would be different valid sandwiches with gravy:
+A sandwich is considered "sauce-able" if all of its ingredients are sauce-able. Any sauce-able sandwich may additionally have hot sauce added (just once and it can be placed anywhere between the two pieces of bread). If we may add hot sauce to sandwiches, these would be different valid sandwiches with hot sauce:
 
-- (bread, gravy, turkey, turkey, bread)
-- (bread, turkey, gravy, turkey, bread)
-- (bread, turkey, gravy, mashed potatoes, bread)
+- (bread, Hot Sauce, Turkey, Turkey, bread)
+- (bread, Turkey, hot sauce, Turkey, bread)
+- (bread, Turkey, hot sauce, Mashed Potatoes, bread)
 
-**Problem 12** How many possible graviable sandwiches are there if we must have exactly 5 distinct ingredients, where one of them must be gravy?
+**Problem 11** How many possible sauce-able sandwiches are there if we must have exactly 5 distinct ingredients, where one of them must be hot sauce (including the bread as an ingredient)?
