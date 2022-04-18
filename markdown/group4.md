@@ -1,5 +1,5 @@
 ---
-title: Group Activity 4 | Counting Cranberries
+title: Group Activity 4 | Counting Cranberries (yep)
 ...
 
 Put your answers for each problem of this activity in this [worksheet](/group4.pdf).
