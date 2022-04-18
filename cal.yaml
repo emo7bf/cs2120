@@ -16,7 +16,7 @@ meta:
   home: https://www.cs.virginia.edu/~emo7bf/cs2120/index.html
   final:
     start: 2022-05-06 19:00:00
-    duration: 180
+    duration: 90
     room: online
   days: [Monday, Wednesday, Friday]
 
@@ -299,7 +299,7 @@ assignments:
     Mod3 Makeup:
         due: 2022-04-25 09:00:00
     Mod4 Makeup:
-        due: 2022-05-09 09:00:00
+        due: 2022-05-06 22:00:00
 
     Group0:
         due: 2022-01-21 15:00:00
