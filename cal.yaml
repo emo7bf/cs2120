@@ -55,8 +55,8 @@ lectures:
     - group1
 
     - [quantifiers, entailment]
-    - english
     - quiz
+    - english
     
     - functions
     - relations
@@ -280,7 +280,7 @@ assignments:
     Mod1Multi2:
         due: 2022-02-14 09:00:00
     Mod2Multi1:
-        due: 2022-02-28 09:00:00
+        due: 2022-03-06 09:00:00
     Mod2Multi2:
         due: 2022-03-21 09:00:00   
     Mod3Multi1:
